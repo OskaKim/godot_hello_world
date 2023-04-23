@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Dotnet Hello World"
-run/main_scene="res://node_2d.tscn"
+run/main_scene="res://nodes/scene/node_2d.tscn"
 config/features=PackedStringArray("4.0", "C#", "Mobile")
 config/icon="res://icon.svg"
 
