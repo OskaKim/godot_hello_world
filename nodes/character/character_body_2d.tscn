@@ -143,6 +143,7 @@ animations = [{
 }]
 
 [node name="PlayerCharacter" type="CharacterBody2D"]
+scale = Vector2(0.5, 0.5)
 script = ExtResource("1_gryc8")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
@@ -151,6 +152,6 @@ shape = SubResource("CapsuleShape2D_5d3ft")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_1vl27")
-animation = &"idle_right"
+animation = &"idle_down"
 autoplay = "idle_down"
 metadata/_edit_lock_ = true
